@@ -1,0 +1,5 @@
+<!--PLACEHOLDER VALOR MÍNIMO-->
+   <div class="input-group mb-3">
+       <span class="input-group-text" id="iconeMoeda">USD</span>
+       <input placeholder="O valor mínimo é 100" type="number" minlength="100" name="valor_estrangeiro" id="valor_estrangeiro" class="form-control" onkeyup="calculaCambio(this.id);">
+   </div>
